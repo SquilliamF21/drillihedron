@@ -1,2 +1,2 @@
---neko hello.n
+--neko ../bin/hello.n
 --main Main
