@@ -1,1 +1,6 @@
 language: haxe
+hxml: ["src/build.hxml"]
+script:
+  - cd src
+  - haxe build.hxml
+  - haxe test.hxml
